@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import { TextField, Stack, Button } from "@mui/material";
 
-
 function App() {
   const [interest, setInterest] = useState(0);
   const [principal, setPrincipal] = useState(0);
